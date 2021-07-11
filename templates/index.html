@@ -18,7 +18,7 @@
 
     <nav id="nav-bar" class=" navbar navbar-expand-md navbar-light">
         <div class="container">
-            <a class="navbar-brand" href="#">JohnBhatti</a>
+            <a class="navbar-brand" href="{% url 'home' %}">JohnBhatti</a>
 
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                   <i class="icofont-navigation-menu"></i>
@@ -27,7 +27,7 @@
             <div class="nav-menu collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item active">
-                        <a class="nav-link" href="index.html">Home </a>
+                        <a class="nav-link" href="{% url 'home' %}">Home </a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#about1">About</a>
