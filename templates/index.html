@@ -1,0 +1,339 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{% static 'assets/css/bootstrap.min.css' %}">
+    <link rel="stylesheet" href="{% static 'assets/vendors/icofont/icofont.min.css' %}">
+    <link rel="stylesheet" href="{% static 'assets/vendors/boxicons/css/boxicons.min.css' %}">
+    <link rel="stylesheet" href="{% static 'assets/vendors/aos/aos.css' %}">
+    <link rel="stylesheet" href="{% static 'assets/css/style.css' %}">
+</head>
+
+<body>
+
+    <nav id="nav-bar" class=" navbar navbar-expand-md navbar-light">
+        <div class="container">
+            <a class="navbar-brand" href="#">JohnBhatti</a>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <i class="icofont-navigation-menu"></i>
+                </button>
+
+            <div class="nav-menu collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Home </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about1">About</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#project">Projects</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+
+    <!-- banner section goes here -->
+
+    <section id="banner">
+        <div class="container">
+            <div class="row d-flex justify-content-center align-items-center text-center" style="margin-top: 60px;">
+                <div class="col-md-6">
+                    <div class="promo" data-aos="fade-left">
+                        <h1 class="promo-title">John Bhatti</h1>
+                        <p class="promo-text mt-4">I'm <span class="typed" data-typed-items="Django Developer,Web Developer,Python Developer"></span></p>
+                        <div class="hireme-wrap">
+                            <button type="button" class="btn btn-outline-light btn-lg hireme">HireMe</button></div>
+                    </div>
+                </div>
+                <div class="col-md-6 text-center" data-aos="fade-right" style="margin-bottom: 30px;">
+                    <img src="{% static 'assets/profile-img/ian-dooley-FoF0w-d6Z74-unsplash.jpg' %}" alt="" class="img-fluid main-img">
+                </div>
+            </div>
+        </div>
+        <div>
+            <img src="{% static 'assets/images/wave1.png' %}" alt="" class="waver1-img img-fluid">
+        </div>
+
+
+    </section>
+
+
+
+    <!-- banner section end here -->
+
+
+    <!-- Services sectiong starts -->
+    <section id="about1" style="padding-top:100px;">
+        <div class="container">
+            <h1 class="text-center about">About Me</h1>
+
+
+            <div class="row">
+                <div class="col-lg-8 pt-lg-0 content" data-aos="fade-up">
+                    <h3 class="developer pb-4 mb-3">Django Developer &amp; Web Developer.</h3>
+                    <p>I'am <b>Django Developer</b>. I started as php developer but for last six months I'm fully focusing on learning Django Framework and Now a days working on some Django Projects. Have a look at my projects.
+                    </p>
+                    <p>I have recently completed <b>B.tech in Computer Science</b> from <b>Kurkshetra University</b> involving in different Courses such as Data structure , Design and Analyzing Algorithms , OOPS.</p>
+                    <p>I completed <b>Sixf Years Diploma in Computer Science</b> from <b>Kurkshetra University</b>.</p>
+                    <p>I completed Three Months Industrial Training in <b>Advance Php</b> Development from OOP Inst. pvt. ltd. Kuk.</p>
+                    <div class="about-skills">
+                        <p>
+                            <p><b>Front-End-Skills</b> : Html , Css , Javascript , Jquery , bootstrap</p>
+                            <p><b>Back-End-Skills</b> : Python, <b>Django</b> , Ajax , Mysql , Django Rest Framework</p>
+                            <p><b>Others : </b> : Github , Visual Studio , Heroku</p>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-4 d-flex justify-content-center align-items-center" data-aos="fade-up" data-aos-delay="1100">
+                    <button class="btn btn-info p-3 mt-4">Download Resume</button>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- skills section starts -->
+    <section id="about1" class="skills section-bg">
+
+
+        <div class="container">
+
+            <h1 class="text-center skills-h1" style="font-weight:700;font-style:italic;margin-top: 100px;">Skills</h1>
+
+
+
+            <div class="row skills-content">
+
+                <div class="col-lg-6" data-aos="fade-up">
+
+                    <div class="progress">
+                        <span class="skill">HTML <i class="val">80%</i></span>
+                        <div class="progress-bar-wrap">
+                            <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+
+                    <div class="progress">
+                        <span class="skill">CSS <i class="val">60%</i></span>
+                        <div class="progress-bar-wrap">
+                            <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+
+
+                    <div class="progress">
+                        <span class="skill">JavaScript <i class="val">60%</i></span>
+                        <div class="progress-bar-wrap">
+                            <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+
+                </div>
+
+
+
+                <div class="col-lg-6" data-aos="fade-up" data-aos-delay="1100">
+
+                    <div class="progress">
+                        <span class="skill">Bootstrap <i class="val">65%</i></span>
+                        <div class="progress-bar-wrap">
+                            <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+
+                    <div class="progress">
+                        <span class="skill">Django <i class="val">70%</i></span>
+                        <div class="progress-bar-wrap">
+                            <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+
+
+                    <div class="progress">
+                        <span class="skill">Python<i class="val">70%</i></span>
+                        <div class="progress-bar-wrap">
+                            <div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+
+                </div>
+
+
+            </div>
+
+        </div>
+    </section>
+
+
+
+
+
+    <section id="project" class="project-section">
+        <div class=" container">
+
+            <h1 class="text-center skills-h1">My Work</h1>
+
+            <div class="row">
+                <div class="col-md-6" data-aos="fade-up">
+                    <img src="{% static 'assets/profile-img/Custom dimensions 1200x900 px.jpeg' %}" class="img-fluid project-img" alt="">
+                </div>
+                <div class="col-md-6 m-auto project-row" data-aos="fade-up" data-aos-delay="1100">
+                    <div class="project-detail">
+                        <h3 class="developer">E-Commerce Website</h3>
+                        <p class="font-italic">I developed this E-commerce Website using <strong>Django</strong> Framework. Front-End part was developed using Html , Css , JavaScript and Bootstrap and on Back-End I used Django(Python) , Ajax , Jquery, Sqlite3 . I deployed on
+                            this website on Pythonanywhere.com
+                        </p>
+                    </div>
+                    <div class="project-buttons">
+                        <button class="btn btn-info">View Site</button>
+                        <button class="btn btn-info">Github</button>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <section id="contact" class="contact" style="padding-top:10px;">
+        <div class="container">
+
+
+            <h1 class="text-center skills-h1">Contact Me</h1>
+
+            <div class="row" data-aos="fade-up">
+
+                <div class="col-lg-5 d-flex align-items-stretch">
+                    <div class="info">
+                        <div class="address">
+                            <i class="icofont-google-map"></i>
+                            <h4>Location:</h4>
+                            <p>Patiala,Samana,Punjab (India) </p>
+                        </div>
+
+                        <div class="email">
+                            <i class="icofont-envelope"></i>
+                            <h4>Email:</h4>
+                            <p>Harryjohn026@gmail.com</p>
+                        </div>
+
+                        <div class="email">
+                            <i class="icofont-envelope"></i>
+                            <h4>Email:</h4>
+                            <p>Johnbhatti26@gmail.com</p>
+                        </div>
+
+                        <div class="phone">
+                            <i class="icofont-phone"></i>
+                            <h4>Call:</h4>
+                            <p>+91 989 692 543 0</p>
+                        </div>
+
+
+                    </div>
+
+                </div>
+
+                <div class="col-lg-7 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="1100">
+                    <form action="forms/contact.php" method="post" role="form" class="email-form">
+                        <div class="form-row">
+                            <div class="form-group col-md-6">
+                                <label for="name">Your Name</label>
+                                <input type="text" name="name" class="form-control" id="name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                                <div class="validate"></div>
+                            </div>
+                            <div class="form-group col-md-6">
+                                <label for="name">Your Email</label>
+                                <input type="email" class="form-control" name="email" id="email" data-rule="email" data-msg="Please enter a valid email" />
+                                <div class="validate"></div>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="name">Subject</label>
+                            <input type="text" class="form-control" name="subject" id="subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+                            <div class="validate"></div>
+                        </div>
+                        <div class="form-group">
+                            <label for="name">Message</label>
+                            <textarea class="form-control" name="message" rows="2" data-rule="required" data-msg="Please write something for us"></textarea>
+                            <div class="validate"></div>
+                        </div>
+                        <div class="mb-3">
+                            <div class="loading">Loading</div>
+                            <div class="error-message"></div>
+                            <div class="sent-message">Your message has been sent. Thank you!</div>
+                        </div>
+                        <div class="text-center"><button type="submit" class="btn btn-info">Send Message</button></div>
+                    </form>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <section class="footer" data-aos="fade-up">
+        <img src="{% static 'assets/images/wave2.png' %}" class="img-fluid" alt="">
+        <div class="container">
+            <div class="row p-4 text-center">
+                <div class="col-md-6">
+                    <div class=" footer-desc">
+
+                        <p><a href="" class="h2 footer-home">JohnBhatti</a></p>
+                        <p>Thank you for visiting us.</p>
+                        <p>We would to love to hear from you.</p>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <p class="mt-4">Connect With me</p>
+                    <div class=" social-links mt-4">
+                        <a href="https://www.facebook.com/johanbhatti26/" class="facebook"><i class="bx bxl-facebook"></i></a>
+                        <a href="https://www.instagram.com/johnbhatti26/" class="instagram"><i class="bx bxl-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/johan-masih-85706617a/" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+                    </div>
+
+
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <a href="#" class="back-to-top"><i class="icofont-simple-up"></i></a>
+
+
+
+    <script src="{% static 'assets/css/jquery-3.5.1.min.js' %}"></script>
+    <script src="{% static 'assets/css/popper.js' %}"></script>
+    <script src="{% static 'assets/css/bootstrap.min.js' %}"></script>
+    <script src="{% static 'assets/vendors/jquery.easing/jquery.easing.min.js' %}"></script>
+    <script src="{% static 'assets/vendors/waypoints.min.js' %}"></script>
+    <script src="{% static 'assets/vendors/typed.js/typed.min.js' %}"></script>
+    <script src="{% static 'assets/vendors/aos/aos.js' %}"></script>
+    <script src="{% static 'assets/js/main.js' %}"></script>
+
+</body>
+
+</html>
