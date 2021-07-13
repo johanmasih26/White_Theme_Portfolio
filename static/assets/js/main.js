@@ -99,4 +99,8 @@
         aos_init();
     });
 
+
+    setTimeout(function() {
+        $('.alert').fadeOut('slow');
+    }, 5000);
 })(jQuery);

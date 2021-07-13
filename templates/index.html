@@ -15,6 +15,13 @@
 </head>
 
 <body>
+    {% if messages %} {% for message in messages %}
+    <div class="alert alert-{{message.tags}} alert-dismissible fade show" role="alert">
+        <strong>Dear {{name}} !</strong> {{message}}
+        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+    </div>{% endfor %} {% endif %}
 
     <nav id="nav-bar" class=" navbar navbar-expand-md navbar-light">
         <div class="container">
@@ -101,7 +108,7 @@
                     </div>
                 </div>
                 <div class="col-lg-4 d-flex justify-content-center align-items-center" data-aos="fade-up" data-aos-delay="1100">
-                    <button class="btn btn-info p-3 mt-4">Download Resume</button>
+                    <a href="{% static 'assets/resume.pdf' %}" class="btn btn-info p-3 mt-4">Download Resume</a>
                 </div>
 
             </div>
@@ -334,7 +341,6 @@
     <script src="{% static 'assets/vendors/typed.js/typed.min.js' %}"></script>
     <script src="{% static 'assets/vendors/aos/aos.js' %}"></script>
     <script src="{% static 'assets/js/main.js' %}"></script>
-
 </body>
 
 </html>
