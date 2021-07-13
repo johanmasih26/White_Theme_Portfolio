@@ -23,7 +23,7 @@ def sendmail(request):
             request.POST['subject'],
             template,
             settings.EMAIL_HOST_USER,
-            ['johnbhatti26@gmail.com']
+            ['harryjohn026@gmail.com']
         )
         email.fail_silently = False
         email.send()
