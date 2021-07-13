@@ -256,7 +256,8 @@
                 </div>
 
                 <div class="col-lg-7 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="1100">
-                    <form action="forms/contact.php" method="post" role="form" class="email-form">
+                    <form action="{% url 'sendmail' %}" method="post" role="form" class="email-form">
+                        {% csrf_token %}
                         <div class="form-row">
                             <div class="form-group col-md-6">
                                 <label for="name">Your Name</label>
