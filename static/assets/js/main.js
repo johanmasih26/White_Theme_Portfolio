@@ -11,6 +11,13 @@
             backDelay: 2000
         });
     }
+
+    // alert fade out
+    setTimeout(function() {
+        $('.alert').fadeOut('slow');
+    }, 5000);
+
+
     $(window).scroll(function(e) {
         e.preventDefault();
         if ($(this).scrollTop() > 100) {
@@ -105,7 +112,5 @@
 })(jQuery);
 
 $(document).ready(function() {
-    setTimeout(function() {
-        $('.alert').fadeOut('slow');
-    }, 5000);
+
 });
