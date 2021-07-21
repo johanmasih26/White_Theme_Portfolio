@@ -11,6 +11,9 @@ from django.contrib import messages
 def index(request):
     return render(request,'index.html')
 
+def e_commerce_detail(request):
+    return render(request,'e_commerce_detail.html')
+
 
 def sendmail(request):
     if request.method == "POST":
