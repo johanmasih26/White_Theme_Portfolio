@@ -12,7 +12,7 @@ def index(request):
     return render(request,'index.html')
 
 def e_commerce_detail(request):
-    return render(request,'e_commerce_detail.html')
+    return render(request,'E_commerce_detail.html')
 
 
 def sendmail(request):
